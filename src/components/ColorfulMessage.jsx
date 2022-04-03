@@ -2,7 +2,7 @@ import React from "react";
 
 //props: コンポーネントの引数。動的にコンポーネントの表示内容を変更できる
 //propsを受け取るときはオブジェクトにプロパティとして格納される
-const ColorfullMessage = (props) => {
+export const ColorfullMessage = (props) => {
   //分割代入でpropsからそれぞれ変数に代入
   const { color, message } = props;
   /**
@@ -26,4 +26,4 @@ const ColorfullMessage = (props) => {
   );
 };
 
-export default ColorfullMessage;
+// export default ColorfullMessage;
